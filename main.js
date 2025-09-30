@@ -1,19 +1,24 @@
+
+
+
+
+
 const perguntas = [
     {
-        enunciado: "Pergunta?",
+        enunciado: "Quem é o melhor jogador de futebol?",
         alternativas: [
             {
-                texto: " Texto/resposta",
-                afirmacao: " Afirmação ",
+                texto: "Cristiano Ronaldo dos Santos Aveiro",
+                afirmacao: "Você é uma pessoa ambiciosa e tem dedicação em tudo o que faz.",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Lionel Andrés Messi Cuccittini",
+                afirmacao: "Você valoriza o talento, trabalho duro e nunca desiste.",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "Quem é o maior ídolo da seleção brasileira?",
         alternativas: [
             {
                 texto: " Texto/resposta ",
