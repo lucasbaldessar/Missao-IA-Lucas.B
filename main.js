@@ -21,12 +21,12 @@ const perguntas = [
         enunciado: "Quem é o maior ídolo da seleção brasileira?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Neymar da Silva Santos Júnior",
+                afirmacao: "Você valoriza o impacto e habilidades.",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Edson Arantes do Nascimento (Pelé)",
+                afirmacao: "Você valoriza a história e conquistas.",
             }
         ]
     },
