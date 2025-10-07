@@ -9,7 +9,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "1??????? Quem é o melhor jogador de futebol?",
+        enunciado: "Quem é o melhor jogador de futebol?",
         alternativas: [
             {
                 texto: "Cristiano Ronaldo dos Santos Aveiro",
