@@ -4,6 +4,9 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
+
+
+
 const perguntas = [
     {
         enunciado: "Quem é o melhor jogador de futebol?",
@@ -63,11 +66,11 @@ const perguntas = [
 
         alternativas: [
             {
-                texto: "Manuel Peter Neuer "
+                texto: "Manuel Peter Neuer"
                 afirmacao: "Você prioriza conquistas e como atuou no futebol."
             },
             {
-                texto: " Lev Ivanovich Yashin "
+                texto: "Lev Ivanovich Yashin"
                 afirmacao: "Você prioriza atuações, qualidade e prêmios individuais."
             }
         ]
