@@ -1,71 +1,68 @@
-
-
-
-
-
 const perguntas = [
     {
         enunciado: "Quem é o melhor jogador de futebol?",
         alternativas: [
             {
                 texto: "Cristiano Ronaldo dos Santos Aveiro",
-                afirmacao: "Você é uma pessoa ambiciosa e tem dedicação em tudo o que faz.",
+                afirmacao: " Você é uma pessoa ambiciosa e tem dedicação em tudo o que faz."
+
             },
             {
-                texto: "Lionel Andrés Messi Cuccittini",
-                afirmacao: "Você valoriza o talento, trabalho duro e nunca desiste.",
+                texto: "Lionel Andrés Messi Cuccittini" 
+                afirmacao: "Você valoriza o talento, trabalho duro e nunca desiste."
             }
         ]
     },
     {
-        enunciado: "Quem é o maior ídolo da seleção brasileira?",
+        enunciado: "Quem é o maior ídolo da seleção brasileira?"
         alternativas: [
             {
-                texto: "Neymar da Silva Santos Júnior",
-                afirmacao: "Você valoriza o impacto e habilidades.",
+                texto: "Neymar da Silva Santos Júnior"
+                afirmacao: "Você valoriza o impacto e habilidades. "
             },
             {
-                texto: "Edson Arantes do Nascimento (Pelé)",
-                afirmacao: "Você valoriza a história e conquistas.",
+                texto: "Edson Arantes do Nascimento (Pelé)"
+                afirmacao: "Você valoriza a história e conquistas."
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "Quem merece a bola de ouro 2025?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Masour Ousmane Dembélé"
+                afirmacao: "Você valoriza a criatividade e companheirismo."
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Raphael Dias Belloli (Raphinha)"
+                afirmacao: "Você valoriza o trabalho duro e esforço.",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "Você prefere qual tipo de Centroavante?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Karim Mostafa Benzema",
+                afirmacao: "Você prefere um atacante que participa da jogada."
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Robert Lewandowski"
+                afirmacao: "Você prefere um centroavante matador."
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "Qual melhor goleiro que já passou pelo futebol?"
+
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: "Afirmação",
+                texto: "Manuel Peter Neuer "
+                afirmacao: "Você prioriza conquistas e como atuou no futebol."
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Lev Ivanovich Yashin "
+                afirmacao: "Você prioriza atuações, qualidade e prêmios individuais."
             }
         ]
     },
