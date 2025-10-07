@@ -1,3 +1,8 @@
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas=document.querySelector(".caixa-perguntas");
+
+
+
 const perguntas = [
     {
         enunciado: "Quem é o melhor jogador de futebol?",
