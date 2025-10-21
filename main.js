@@ -17,7 +17,7 @@ const perguntas = [
 
             },
             {
-                texto: "Lionel Andrés Messi Cuccittini" ,
+                texto: "Lionel Andrés Messi Cuccittini",
                 afirmacao: "Você valoriza o talento, trabalho duro e nunca desiste."
             }
         ]
@@ -80,23 +80,30 @@ const perguntas = [
 let atual = 0
 let perguntaAtual;
 
-function mostraPergunta(){
+function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
 
-function mostraAlternativas(){
-    for (const alternativa of perguntaAtual.alternativas){
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement('button');
         botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", function(){
+        botaoAlternativas.addEventListener("click", function () {
             atual++
             mostraPergunta();
         })
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 
+}
+
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacoes + " ";
+    atual++
+    mostraPergunta();
 }
 
 mostraPergunta();
